@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lakshita Baid — Ideas. People. Possibilities.</title>
+  <meta name="description" content="Portfolio of Lakshita Baid — public speaker, aspiring marketing professional and curious builder of ideas from Hubballi, Karnataka, India.">
+  <meta name="theme-color" content="#FFF6E5">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Caveat:wght@600&family=DM+Sans:wght@400;500;700&family=Fraunces:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<!-- SVG SPRITE: reusable doodles (decorative, hidden from assistive tech) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-star" viewBox="0 0 100 100"><path d="M50 4 L61 38 L97 38 L68 59 L79 94 L50 73 L21 94 L32 59 L3 38 L39 38Z"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 100 100"><path d="M50 0 C52 30 70 48 100 50 C70 52 52 70 50 100 C48 70 30 52 0 50 C30 48 48 30 50 0Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 120 70"><path d="M6 50 C30 6 78 4 104 40 M104 40 L86 38 M104 40 L98 22" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-squiggle" viewBox="0 0 120 20"><path d="M2 10 Q12 0 22 10 T42 10 T62 10 T82 10 T102 10 T118 10" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ============ HEADER: NAVIGATION + HERO ============ -->
+<header class="site-header">
+  <!-- Sticky pill navigation (ID selector demo: #site-nav) -->
+  <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner container">
+      <a class="logo-sticker" href="#home" aria-label="Lakshita Baid — back to top">LB</a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <div class="nav-track">
+        <ul class="nav-list" id="nav-list">
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#speaking">Speaking</a></li>
+          <li><a class="nav-link" href="#leadership">Leadership</a></li>
+          <li><a class="nav-link" href="#experience">Experience</a></li>
+          <li><a class="nav-link" href="#education">Education</a></li>
+          <li><a class="nav-link" href="#partnerships">Partnerships</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#community">Community</a></li>
+          <li><a class="nav-link" href="#interests">Interests</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <span class="nav-indicator" aria-hidden="true"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 7.1 HOME / HERO -->
+  <section id="home" class="hero" aria-labelledby="hero-title">
+    <div class="container hero-grid">
+
+      <div class="hero-copy">
+        <p class="eyebrow tag tag--ink">Portfolio · Hubballi, Karnataka, India</p>
+        <h1 class="hero-name" id="hero-title">
+          <span class="name-line name-line--one">Lakshita</span>
+          <span class="name-line name-line--two"><mark class="marker">Baid</mark></span>
+        </h1>
+        <span class="hello-bubble sticker" aria-hidden="true">hello!</span>
+
+        <p class="hero-tagline" aria-label="Ideas. People. Possibilities.">
+          <span class="tw tw--1"><span>Ideas.</span></span>
+          <span class="tw tw--2"><span>People.</span></span>
+          <span class="tw tw--3"><span>Possibilities.</span></span>
+        </p>
+        <p class="hero-intro">I love communicating ideas, connecting people and exploring how creativity, marketing and business turn possibilities into something real.</p>
+
+        <div class="hero-ctas">
+          <a class="btn btn--primary" href="#speaking">Explore my work <span class="btn-icon" aria-hidden="true">→</span></a>
+          <a class="btn btn--ghost" href="#contact">Have an idea? Let's talk <span class="btn-icon" aria-hidden="true">→</span></a>
+        </div>
+
+        <a class="scroll-cue" href="#about">
+          <span>scroll</span>
+          <svg class="scroll-arrow" width="44" height="28" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg>
+        </a>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <!--
+          PHOTO PLACEHOLDER — HOW TO REPLACE:
+          1. Save your photo as assets/images/lakshita.jpg (4:5 ratio, at least 800×1000px).
+          2. Replace the <div class="photo-placeholder"> below with:
+             <img src="assets/images/lakshita.jpg" alt="Portrait of Lakshita Baid" width="800" height="1000">
+        -->
+        <div class="photo-frame">
+          <span class="tape tape--tl" aria-hidden="true"></span>
+          <span class="tape tape--tr" aria-hidden="true"></span>
+          <span class="tape tape--bl" aria-hidden="true"></span>
+          <span class="tape tape--br" aria-hidden="true"></span>
+          <div class="photo-placeholder" role="img" aria-label="Placeholder: Lakshita's portrait photo goes here">
+            <span>YOUR PHOTO<br>GOES HERE</span>
+          </div>
+        </div>
+
+        <!-- Floating stickers (decorative; react to mouse on desktop) -->
+        <span class="deco deco--star float" data-depth="12" aria-hidden="true"><svg viewBox="0 0 100 100" width="64" height="64"><use href="#i-star"/></svg></span>
+        <span class="deco deco--circle float" data-depth="8" aria-hidden="true"></span>
+        <span class="deco deco--sparkle twinkle" data-depth="10" aria-hidden="true"><svg viewBox="0 0 100 100" width="44" height="44"><use href="#i-sparkle"/></svg></span>
+        <span class="sticker sticker--nerd float" data-depth="6" aria-hidden="true">marketing nerd</span>
+      </div>
+
+    </div>
+  </section>
+</header>
+
+<main id="main">
+
+<!-- ============ 7.2 ABOUT ============ -->
+<section id="about" class="section section--about" aria-labelledby="about-title">
+  <div class="container">
+    <header class="section-head reveal">
+      <span class="giant-num" aria-hidden="true">01</span>
+      <p class="eyebrow">About me</p>
+      <h2 id="about-title">A little about me</h2>
+    </header>
+
+    <div class="about-grid">
+      <article class="note-card reveal">
+        <span class="tape tape--tl" aria-hidden="true"></span>
+        <span class="tape tape--tr" aria-hidden="true"></span>
+        <p>For me, <mark class="hl">communication is the thread</mark> that ties everything together. It started on stage, through debates, leadership programmes, national-level representation and idea-pitching, and it grew when I began teaching public speaking to younger students.</p>
+        <p>What fascinates me most is the space where <mark class="hl hl--pink">marketing, communication, business and entrepreneurship meet</mark>: how brands build relationships, how communities grow, and how an idea travels from a conversation to something people can actually use.</p>
+        <p>I want to <mark class="hl hl--mint">build things</mark>, work with interesting people, and eventually build something of my own. I'm not following a conventional career path, and I'm okay with that.</p>
+        <p class="annotation" aria-hidden="true">← this is me, in a nutshell</p>
+      </article>
+
+      <div class="fact-stack">
+        <article class="card tone-yellow tilt reveal" style="--i:1"><h3>Hubballi, Karnataka</h3><p>Where I'm from.</p></article>
+        <article class="card tone-pink tilt reveal" style="--i:2"><h3>Debater</h3><p>State-level debate participant.</p></article>
+        <article class="card tone-mint tilt reveal" style="--i:3"><h3>Idea pitcher</h3><p>Idea-pitching competitions.</p></article>
+        <article class="card tone-lavender tilt reveal" style="--i:4"><h3>Builder of ideas</h3><p>From conversation to execution.</p></article>
+      </div>
+
+      <div class="quote-wrap reveal" style="--i:2">
+        <button class="quote-card" id="quote-card" type="button" aria-describedby="quote-hint">
+          <span class="quote-label">True about me · <span id="quote-count">1 / 3</span></span>
+          <span class="quote-text" id="quote-text" aria-live="polite">Two-time state-level debate participant.</span>
+        </button>
+        <p class="annotation" id="quote-hint">Click or press Enter for the next one →</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7.3 SPEAKING & COMMUNICATION ============ -->
+<section id="speaking" class="section section--speaking" aria-labelledby="speaking-title">
+  <div class="container">
+    <header class="section-head reveal">
+      <span class="giant-num" aria-hidden="true">02</span>
+      <p class="eyebrow">Speaking &amp; communication</p>
+      <h2 id="speaking-title" class="statement">I don't just enjoy speaking. I enjoy helping others <mark class="hl hl--pink">find their voice.</mark></h2>
+      <p class="debate-tags" aria-hidden="true"><span class="sticker">FOR</span><span class="sticker sticker--alt">AGAINST</span></p>
+    </header>
+
+    <ul class="card-grid award-grid" role="list">
+      <li><article class="card award-card tone-yellow reveal" style="--i:0">
+        <span class="tag tag--award">Award</span>
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-aw1"><span class="expander-label">Two-time state-level debate participant</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-aw1"><div class="panel-inner"><p><strong>Verified:</strong> participated twice in state-level debate.</p><p class="placeholder">[ADD: competition name / date / certificate photo]</p></div></div>
+      </article></li>
+      <li><article class="card award-card tone-pink reveal" style="--i:1">
+        <span class="tag tag--award">Award</span>
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-aw2"><span class="expander-label">First place — state-level debate competition</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-aw2"><div class="panel-inner"><p><strong>Verified:</strong> first place at a state-level debate competition.</p><p class="placeholder">[ADD: competition name / date / certificate photo]</p></div></div>
+      </article></li>
+      <li><article class="card award-card tone-mint reveal" style="--i:2">
+        <span class="tag tag--award">Award</span>
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-aw3"><span class="expander-label">Second place — state-level Young Manager competition</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-aw3"><div class="panel-inner"><p><strong>Verified:</strong> second place at a state-level Young Manager competition.</p><p class="placeholder">[ADD: competition name / date / certificate photo]</p></div></div>
+      </article></li>
+      <li><article class="card award-card tone-lavender reveal" style="--i:3">
+        <span class="tag tag--award">Award</span>
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-aw4"><span class="expander-label">Multiple public-speaking competitions</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-aw4"><div class="panel-inner"><p><strong>Verified:</strong> took part in multiple public-speaking competitions.</p><p class="placeholder">[ADD: competition name / date / certificate photo]</p></div></div>
+      </article></li>
+      <li><article class="card award-card tone-coral reveal" style="--i:4">
+        <span class="tag tag--award">Award</span>
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-aw5"><span class="expander-label">Idea-pitching competitions</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-aw5"><div class="panel-inner"><p><strong>Verified:</strong> took part in idea-pitching competitions.</p><p class="placeholder">[ADD: competition name / date / certificate photo]</p></div></div>
+      </article></li>
+      <li><article class="card award-card tone-yellow reveal" style="--i:5">
+        <span class="tag tag--award">Award</span>
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-aw6"><span class="expander-label">Young Manager competitions</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-aw6"><div class="panel-inner"><p><strong>Verified:</strong> took part in Young Manager competitions.</p><p class="placeholder">[ADD: competition name / date / certificate photo]</p></div></div>
+      </article></li>
+      <li><article class="card award-card tone-pink reveal" style="--i:6">
+        <span class="tag tag--award">Award</span>
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-aw7"><span class="expander-label">13+ awards across programmes and competitions over two years</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-aw7"><div class="panel-inner"><p><strong>Verified:</strong> 13+ awards across programmes and competitions over two years.</p><p class="placeholder">[ADD: list of awards / certificate photos]</p></div></div>
+      </article></li>
+      <li><article class="card award-card tone-mint reveal" style="--i:7">
+        <span class="tag tag--award">Award</span>
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-aw8"><span class="expander-label">Represented at national-level competitions</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-aw8"><div class="panel-inner"><p><strong>Verified:</strong> represented at national-level competitions.</p><p class="placeholder">[ADD: competition name / date / certificate photo]</p></div></div>
+      </article></li>
+    </ul>
+
+    <div class="speaking-extra">
+      <article class="card tone-surface teaching-card reveal">
+        <span class="tag tag--completed">Completed experience</span>
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-teach"><span class="expander-label">Teaching public speaking to students aged 8–14</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-teach"><div class="panel-inner">
+          <p>For one year, I taught public speaking to students aged 8–14. My goals were to:</p>
+          <ul class="plain-list">
+            <li>help children become more confident speakers</li>
+            <li>develop their articulation</li>
+            <li>encourage structured communication</li>
+            <li>help students express opinions and ideas</li>
+            <li>build confidence before an audience</li>
+          </ul>
+          <p class="placeholder">[ADD: school / programme name, dates]</p>
+        </div></div>
+      </article>
+
+      <div class="photo-placeholder photo-placeholder--wide reveal" role="img" aria-label="Placeholder: competition photo goes here">
+        <span>COMPETITION PHOTO<br>GOES HERE</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7.4 LEADERSHIP & ACHIEVEMENTS ============ -->
+<section id="leadership" class="section section--leadership" aria-labelledby="leadership-title">
+  <div class="container">
+    <header class="section-head reveal">
+      <span class="giant-num" aria-hidden="true">03</span>
+      <p class="eyebrow">Leadership &amp; achievements</p>
+      <h2 id="leadership-title">Leading from the front row</h2>
+    </header>
+
+    <div class="timeline" id="timeline">
+      <div class="timeline-line" aria-hidden="true"><span class="timeline-fill"></span></div>
+      <ol class="timeline-list" role="list">
+        <li class="timeline-item">
+          <article class="card tone-pink reveal" style="--i:0">
+            <span class="tag tag--award">Award</span>
+            <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-yip"><span class="expander-label">Young Indians Parliament 2.0</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+            <ul class="plain-list">
+              <li>Best Leader of the House</li>
+              <li>Leadership Excellence Award – Hyderabad</li>
+              <li>Represented at Delhi Nationals</li>
+            </ul>
+            <div class="panel" id="p-yip"><div class="panel-inner"><p class="placeholder">[ADD: certificate photo / event photo / dates]</p></div></div>
+          </article>
+        </li>
+        <li class="timeline-item">
+          <article class="card tone-mint reveal" style="--i:1">
+            <span class="tag tag--completed">Completed experience</span>
+            <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-school"><span class="expander-label">School leadership</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+            <ul class="plain-list">
+              <li>House Captain</li>
+              <li>Best House recognition</li>
+              <li>Class Representative in Classes XI and XII</li>
+            </ul>
+            <div class="panel" id="p-school"><div class="panel-inner"><p class="placeholder">[ADD: photo / certificate / years]</p></div></div>
+          </article>
+        </li>
+        <li class="timeline-item">
+          <article class="card tone-yellow reveal" style="--i:2">
+            <span class="tag tag--award">Award</span>
+            <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-overall"><span class="expander-label">Overall</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+            <p class="big-count"><span id="award-count" data-count-to="13">13</span><span aria-hidden="true">+</span><span class="visually-hidden"> awards</span></p>
+            <p>awards across two years: debates, public-speaking, idea-pitching and Young Manager competitions.</p>
+            <div class="panel" id="p-overall"><div class="panel-inner"><p class="placeholder">[ADD: certificate collage photo]</p></div></div>
+          </article>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7.5 PROFESSIONAL EXPERIENCE ============ -->
+<section id="experience" class="section section--experience" aria-labelledby="experience-title">
+  <div class="container">
+    <header class="section-head reveal">
+      <span class="giant-num" aria-hidden="true">04</span>
+      <p class="eyebrow">Professional experience</p>
+      <h2 id="experience-title">Experience</h2>
+    </header>
+
+    <article class="editorial-card reveal">
+      <div class="editorial-head">
+        <span class="tag tag--completed">Completed experience</span>
+        <h3>Service Manager Intern</h3>
+        <p class="editorial-sub">TechStore · Hubballi, Karnataka · approximately five months · <span class="placeholder placeholder--inline">[ADD DATES]</span></p>
+        <p>TechStore is a family-run technology business established in 2003.</p>
+        <p class="scope-note"><strong>Scope:</strong> this was a service management and customer relations internship, <strong>not a sales role</strong>.</p>
+      </div>
+
+      <div class="editorial-cols">
+        <div>
+          <h4>What I did</h4>
+          <ul class="resp-list" id="resp-list">
+            <li data-skills="crm client service ops">Handled customer service requests</li>
+            <li data-skills="team ops service">Coordinated with technicians and service engineers</li>
+            <li data-skills="client team problem">Managed customer and technician calls</li>
+            <li data-skills="ops service tools">Tracked service requests through a ticketing system</li>
+            <li data-skills="tools">Used Excel to maintain service information</li>
+            <li data-skills="ops service">Coordinated incoming devices</li>
+            <li data-skills="client persuasion problem">Communicated technical service solutions to customers</li>
+            <li data-skills="crm client service">Followed up on repair progress</li>
+            <li data-skills="crm client">Made customer feedback calls</li>
+            <li data-skills="persuasion client">Communicated the importance of laptop servicing</li>
+            <li data-skills="service ops team">Supported day-to-day service management</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Skills developed <span class="hint">(hover, focus or tap a chip)</span></h4>
+          <ul class="chip-list" id="exp-chips" role="list">
+            <li><button class="chip" type="button" aria-pressed="false" data-skill="crm">Customer relationship management</button></li>
+            <li><button class="chip" type="button" aria-pressed="false" data-skill="client">Client communication</button></li>
+            <li><button class="chip" type="button" aria-pressed="false" data-skill="persuasion">Persuasion</button></li>
+            <li><button class="chip" type="button" aria-pressed="false" data-skill="problem">Problem-solving</button></li>
+            <li><button class="chip" type="button" aria-pressed="false" data-skill="ops">Operational coordination</button></li>
+            <li><button class="chip" type="button" aria-pressed="false" data-skill="service">Service management</button></li>
+            <li><button class="chip" type="button" aria-pressed="false" data-skill="team">Team communication</button></li>
+            <li><button class="chip" type="button" aria-pressed="false" data-skill="tools">Excel and ticketing systems</button></li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ 7.6 EDUCATION ============ -->
+<section id="education" class="section section--education" aria-labelledby="education-title">
+  <div class="container">
+    <header class="section-head reveal">
+      <span class="giant-num" aria-hidden="true">05</span>
+      <p class="eyebrow">Education</p>
+      <h2 id="education-title">Education</h2>
+    </header>
+
+    <ol class="edu-list" role="list">
+      <li class="edu-item edu--cobalt reveal" style="--i:0">
+        <article class="card">
+          <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-edu1"><span class="expander-label">Bachelor of Business Administration in Marketing</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+          <p class="edu-school">Jain University, Bangalore</p>
+          <div class="panel" id="p-edu1"><div class="panel-inner"><p class="placeholder">[ADD YEARS]</p></div></div>
+        </article>
+      </li>
+      <li class="edu-item edu--pink reveal" style="--i:1">
+        <article class="card">
+          <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-edu2"><span class="expander-label">BBA in Digital Business and Entrepreneurship</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+          <p class="edu-school">Indian Institute of Management Bangalore</p>
+          <div class="panel" id="p-edu2"><div class="panel-inner"><p class="placeholder">[ADD YEARS]</p></div></div>
+        </article>
+      </li>
+      <li class="edu-item edu--mint reveal" style="--i:2">
+        <article class="card">
+          <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-edu3"><span class="expander-label">Class XII / PUC II (Commerce) — 96.6%</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+          <p class="edu-school">KLE College of Commerce, Hubballi</p>
+          <div class="panel" id="p-edu3"><div class="panel-inner">
+            <p><strong>Subjects:</strong> Accountancy, Statistics, Business Studies, Economics, English, Hindi.</p>
+            <p class="placeholder">[ADD YEARS]</p>
+          </div></div>
+        </article>
+      </li>
+      <li class="edu-item edu--yellow reveal" style="--i:3">
+        <article class="card">
+          <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-edu4"><span class="expander-label">Class X — 95.6%</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+          <div class="panel" id="p-edu4"><div class="panel-inner"><p class="placeholder">[ADD SCHOOL NAME AND YEAR]</p></div></div>
+        </article>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ 7.7 PARTNERSHIPS ============ -->
+<section id="partnerships" class="section section--partnerships" aria-labelledby="partnerships-title">
+  <div class="container">
+    <header class="section-head reveal">
+      <span class="giant-num" aria-hidden="true">06</span>
+      <p class="eyebrow">Partnerships</p>
+      <h2 id="partnerships-title">Building bridges between people and brands</h2>
+    </header>
+
+    <div class="partner-layout">
+      <article class="editorial-card editorial-card--tight reveal">
+        <span class="tag tag--current">Current membership</span>
+        <h3>Partnership Cell</h3>
+        <p>Member of the Partnership Cell associated with the IIM Bangalore BBA DBE ecosystem.</p>
+      </article>
+
+      <figure class="partner-art reveal" style="--i:1">
+        <svg viewBox="0 0 360 120" role="img" aria-label="Illustration: a handshake, linked circles and a bridge">
+          <g fill="none" stroke="#14122B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+            <!-- handshake-style clasp -->
+            <path d="M14 70 L44 50 L70 58 L98 44 M14 90 L44 80 L70 88 L98 70"/>
+            <path d="M44 50 L60 76 M70 58 L82 80"/>
+            <!-- linked circles -->
+            <circle cx="160" cy="62" r="24" fill="#FF4F8B"/><circle cx="198" cy="62" r="24" fill="#FFC83D"/>
+            <!-- bridge -->
+            <path d="M246 90 H346 M254 90 V64 M338 90 V64 M254 64 Q296 20 338 64 M276 90 V50 M296 90 V38 M316 90 V50"/>
+          </g>
+        </svg>
+        <figcaption class="visually-hidden">Handshake, linked circles and bridge illustration</figcaption>
+      </figure>
+    </div>
+
+    <p class="eyebrow areas-label reveal"><span class="tag tag--interest">Areas of interest</span></p>
+    <ul class="card-grid partner-grid" role="list">
+      <li class="mini-card tone-yellow reveal" style="--i:0">Brand partnerships</li>
+      <li class="mini-card tone-mint reveal" style="--i:1">Corporate relationships</li>
+      <li class="mini-card tone-pink reveal" style="--i:2">Sponsorships</li>
+      <li class="mini-card tone-lavender reveal" style="--i:3">Strategic partnerships</li>
+      <li class="mini-card tone-coral reveal" style="--i:4">Campus collaborations</li>
+      <li class="mini-card tone-yellow reveal" style="--i:5">Brand activations</li>
+      <li class="mini-card tone-mint reveal" style="--i:6">Creator partnerships</li>
+      <li class="mini-card tone-pink reveal" style="--i:7">Student engagement</li>
+      <li class="mini-card tone-lavender reveal" style="--i:8">Business development</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 7.8 PROJECTS & IDEAS ============ -->
+<section id="projects" class="section section--projects" aria-labelledby="projects-title">
+  <div class="container">
+    <header class="section-head reveal">
+      <span class="giant-num" aria-hidden="true">07</span>
+      <p class="eyebrow">Projects &amp; ideas</p>
+      <h2 id="projects-title">Projects</h2>
+    </header>
+
+    <article class="project-hero reveal">
+      <div class="project-top">
+        <span class="tag tag--proposed">Concept · Case competition</span>
+        <span class="tag tag--proposed">Proposed project</span>
+      </div>
+      <h3 class="project-title">MEHFIL</h3>
+      <p class="project-lede">A proposed premium Indian heritage crockery brand concept developed for a marketing case competition. Associated brand personality: <strong>A.R. Rahman</strong>.</p>
+      <ul class="chip-list chip-list--static" role="list">
+        <li class="chip-static">Premium Indian tableware</li>
+        <li class="chip-static">Indian heritage meets contemporary luxury</li>
+        <li class="chip-static">Collectible product lines</li>
+        <li class="chip-static">Premium positioning</li>
+        <li class="chip-static">Product differentiation</li>
+        <li class="chip-static">Pricing and perceived value</li>
+      </ul>
+    </article>
+
+    <ul class="card-grid collection-grid" role="list">
+      <li><article class="card collection tone-pink reveal" style="--i:0">
+        <svg class="plate" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><circle cx="60" cy="60" r="54" fill="#fff" stroke="#14122B" stroke-width="4"/><circle cx="60" cy="60" r="38" fill="none" stroke="#2F4BFF" stroke-width="4" stroke-dasharray="6 6"/><circle cx="60" cy="60" r="16" fill="#FFC83D" stroke="#14122B" stroke-width="4"/></svg>
+        <h3>Taal</h3><p>12-piece crockery set</p>
+        <p class="placeholder placeholder--inline">[ADD: product mockup]</p>
+      </article></li>
+      <li><article class="card collection tone-lavender reveal" style="--i:1">
+        <svg class="plate" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><circle cx="60" cy="60" r="54" fill="#fff" stroke="#14122B" stroke-width="4"/><path d="M20 60 Q40 30 60 60 T100 60" fill="none" stroke="#FF4F8B" stroke-width="5"/><path d="M20 78 Q40 48 60 78 T100 78" fill="none" stroke="#2F4BFF" stroke-width="5"/></svg>
+        <h3>Raag</h3><p>24-piece crockery set</p>
+        <p class="placeholder placeholder--inline">[ADD: product mockup]</p>
+      </article></li>
+      <li><article class="card collection tone-yellow reveal" style="--i:2">
+        <svg class="plate" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><circle cx="60" cy="60" r="54" fill="#0E1A4F" stroke="#14122B" stroke-width="4"/><use href="#i-star" x="32" y="32" width="56" height="56" fill="#FFC83D"/></svg>
+        <h3>Signature</h3><p>6-piece premium collectible set</p>
+        <p class="placeholder placeholder--inline">[ADD: product mockup]</p>
+      </article></li>
+    </ul>
+
+    <article class="card tone-surface case-study reveal">
+      <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-case"><span class="expander-label">Case study: concept → positioning → collections → pricing &amp; perceived value</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+      <div class="panel" id="p-case"><div class="panel-inner">
+        <ol class="case-steps">
+          <li><strong>Concept.</strong> Premium Indian tableware where Indian heritage meets contemporary luxury.</li>
+          <li><strong>Positioning.</strong> Premium positioning and product differentiation, with A.R. Rahman as the associated brand personality.</li>
+          <li><strong>Collections.</strong> Collectible product lines: Taal (12-piece), Raag (24-piece) and Signature (6-piece premium collectible set).</li>
+          <li><strong>Pricing &amp; perceived value.</strong> Pricing designed around perceived value.</li>
+        </ol>
+        <p class="note-small">MEHFIL is a concept for a case competition, not a launched brand. It has no sales, results or partnerships.</p>
+        <p><a class="btn btn--ghost btn--small is-disabled" id="mehfil-pdf-btn" href="#projects" aria-disabled="true">PRESENTATION FILE GOES HERE</a>
+        <span class="placeholder placeholder--inline" id="mehfil-pdf-note">placeholder — add the path in script.js</span></p>
+      </div></div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ 7.9 COMMUNITY & INITIATIVES ============ -->
+<section id="community" class="section section--community" aria-labelledby="community-title">
+  <div class="container">
+    <header class="section-head reveal">
+      <span class="giant-num" aria-hidden="true">08</span>
+      <p class="eyebrow">Community &amp; initiatives</p>
+      <h2 id="community-title">Content Creators' Community (CCC)</h2>
+      <p><span class="tag tag--developing">In development</span> <span class="tag tag--developing">Developing initiative</span></p>
+    </header>
+
+    <div class="community-grid">
+      <div class="reveal">
+        <p class="lede">A developing idea: a space where creators connect, exchange ideas, collaborate and learn from each other. It is an initiative in progress, not an established community.</p>
+        <h3 class="mini-title">Proposed focus <span class="hint">(select a card to light up its node)</span></h3>
+        <ul class="focus-list" id="focus-list" role="list">
+          <li><button class="focus-btn" type="button" aria-pressed="false" data-node="n1">Creator networking</button></li>
+          <li><button class="focus-btn" type="button" aria-pressed="false" data-node="n2">Peer learning</button></li>
+          <li><button class="focus-btn" type="button" aria-pressed="false" data-node="n3">Content collaborations</button></li>
+          <li><button class="focus-btn" type="button" aria-pressed="false" data-node="n4">Creative brainstorming</button></li>
+          <li><button class="focus-btn" type="button" aria-pressed="false" data-node="n5">Community engagement</button></li>
+          <li><button class="focus-btn" type="button" aria-pressed="false" data-node="n6">Opportunities for emerging creators</button></li>
+        </ul>
+      </div>
+
+      <figure class="node-figure reveal" style="--i:1" tabindex="0" aria-label="Connected-nodes graphic: a hub linked to six focus areas. Lines animate on hover or focus.">
+        <svg class="node-svg" viewBox="0 0 400 320" aria-hidden="true" focusable="false">
+          <g class="node-lines" stroke="#14122B" stroke-width="3" stroke-linecap="round" fill="none">
+            <line x1="200" y1="160" x2="70" y2="60"/><line x1="200" y1="160" x2="200" y2="30"/><line x1="200" y1="160" x2="330" y2="60"/>
+            <line x1="200" y1="160" x2="70" y2="260"/><line x1="200" y1="160" x2="200" y2="292"/><line x1="200" y1="160" x2="330" y2="260"/>
+          </g>
+          <circle cx="200" cy="160" r="30" fill="#FFC83D" stroke="#14122B" stroke-width="4"/>
+          <text x="200" y="166" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-weight="800" font-size="18" fill="#14122B">CCC</text>
+          <circle id="n1" class="node" cx="70" cy="60" r="18"/><circle id="n2" class="node" cx="200" cy="30" r="18"/><circle id="n3" class="node" cx="330" cy="60" r="18"/>
+          <circle id="n4" class="node" cx="70" cy="260" r="18"/><circle id="n5" class="node" cx="200" cy="292" r="18"/><circle id="n6" class="node" cx="330" cy="260" r="18"/>
+        </svg>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7.10 INTERESTS ============ -->
+<section id="interests" class="section section--interests" aria-labelledby="interests-title">
+  <div class="container">
+    <header class="section-head reveal">
+      <span class="giant-num" aria-hidden="true">09</span>
+      <p class="eyebrow">Interests</p>
+      <h2 id="interests-title">Things I'm curious about</h2>
+      <p class="annotation">Things I'm curious about — not job titles. Tap the ones you share: <strong id="interest-count">0 of 13</strong>.</p>
+    </header>
+
+    <ul class="interest-grid" id="interest-grid" role="list">
+      <li><button class="interest tone-yellow" type="button" aria-pressed="false"><span class="interest-icon" aria-hidden="true">✦</span>Public speaking</button></li>
+      <li><button class="interest tone-pink" type="button" aria-pressed="false"><span class="interest-icon" aria-hidden="true">✦</span>Debating</button></li>
+      <li><button class="interest tone-mint" type="button" aria-pressed="false"><span class="interest-icon" aria-hidden="true">✦</span>Marketing</button></li>
+      <li><button class="interest tone-lavender" type="button" aria-pressed="false"><span class="interest-icon" aria-hidden="true">✦</span>Brand strategy</button></li>
+      <li><button class="interest tone-coral" type="button" aria-pressed="false"><span class="interest-icon" aria-hidden="true">✦</span>Entrepreneurship</button></li>
+      <li><button class="interest tone-yellow" type="button" aria-pressed="false"><span class="interest-icon" aria-hidden="true">✦</span>Networking</button></li>
+      <li><button class="interest tone-mint" type="button" aria-pressed="false"><span class="interest-icon" aria-hidden="true">✦</span>Meeting founders</button></li>
+      <li><button class="interest tone-pink" type="button" aria-pressed="false"><span class="interest-icon" aria-hidden="true">✦</span>Creative brainstorming</button></li>
+      <li><button class="interest tone-lavender" type="button" aria-pressed="false"><span class="interest-icon" aria-hidden="true">✦</span>Community building</button></li>
+      <li><button class="interest tone-coral" type="button" aria-pressed="false"><span class="interest-icon" aria-hidden="true">✦</span>Social entrepreneurship</button></li>
+      <li><button class="interest tone-yellow" type="button" aria-pressed="false"><span class="interest-icon" aria-hidden="true">✦</span>Business strategy</button></li>
+      <li><button class="interest tone-mint" type="button" aria-pressed="false"><span class="interest-icon" aria-hidden="true">✦</span>Event marketing</button></li>
+      <li><button class="interest tone-pink" type="button" aria-pressed="false"><span class="interest-icon" aria-hidden="true">✦</span>Idea development</button></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 7.11 SKILLS ============ -->
+<section id="skills" class="section section--skills" aria-labelledby="skills-title">
+  <div class="container">
+    <header class="section-head reveal">
+      <span class="giant-num" aria-hidden="true">10</span>
+      <p class="eyebrow">Skills</p>
+      <h2 id="skills-title">Skills</h2>
+      <button class="btn btn--ghost btn--small" id="skills-toggle-all" type="button">Open all clusters</button>
+    </header>
+
+    <div class="skill-grid">
+      <article class="card skill-card tone-yellow reveal" style="--i:0">
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-sk1"><span class="expander-label">Communication</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-sk1"><div class="panel-inner"><ul class="chip-list chip-list--static" role="list"><li class="chip-static">Public speaking</li><li class="chip-static">Debating</li><li class="chip-static">Articulation</li><li class="chip-static">Persuasion</li><li class="chip-static">Presentation skills</li><li class="chip-static">Structured communication</li><li class="chip-static">Storytelling</li></ul></div></div>
+      </article>
+      <article class="card skill-card tone-pink reveal" style="--i:1">
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-sk2"><span class="expander-label">Leadership</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-sk2"><div class="panel-inner"><ul class="chip-list chip-list--static" role="list"><li class="chip-static">Team coordination</li><li class="chip-static">Initiative-taking</li><li class="chip-static">Responsibility</li><li class="chip-static">Collaboration</li><li class="chip-static">Student representation</li><li class="chip-static">Problem-solving</li></ul></div></div>
+      </article>
+      <article class="card skill-card tone-mint reveal" style="--i:2">
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-sk3"><span class="expander-label">Marketing</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-sk3"><div class="panel-inner"><ul class="chip-list chip-list--static" role="list"><li class="chip-static">Brand positioning</li><li class="chip-static">Marketing strategy</li><li class="chip-static">Consumer understanding</li><li class="chip-static">Promotional strategy</li><li class="chip-static">Creative ideation</li><li class="chip-static">Marketing communication</li></ul></div></div>
+      </article>
+      <article class="card skill-card tone-lavender reveal" style="--i:3">
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-sk4"><span class="expander-label">Partnerships &amp; Business</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-sk4"><div class="panel-inner"><ul class="chip-list chip-list--static" role="list"><li class="chip-static">Relationship-building</li><li class="chip-static">Partnership strategy (interest)</li><li class="chip-static">Business development (interest)</li><li class="chip-static">Sponsorship concepts</li><li class="chip-static">Networking</li><li class="chip-static">Entrepreneurial thinking</li></ul></div></div>
+      </article>
+      <article class="card skill-card tone-coral reveal" style="--i:4">
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-sk5"><span class="expander-label">Events &amp; Community</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-sk5"><div class="panel-inner"><ul class="chip-list chip-list--static" role="list"><li class="chip-static">Event marketing</li><li class="chip-static">Participant engagement</li><li class="chip-static">Community-building (interest)</li><li class="chip-static">Team coordination</li><li class="chip-static">Public engagement</li></ul></div></div>
+      </article>
+      <article class="card skill-card tone-surface reveal" style="--i:5">
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-sk6"><span class="expander-label">Operations</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-sk6"><div class="panel-inner"><ul class="chip-list chip-list--static" role="list"><li class="chip-static">Customer service</li><li class="chip-static">Service coordination</li><li class="chip-static">Ticket management</li><li class="chip-static">Excel</li></ul></div></div>
+      </article>
+      <article class="card skill-card tone-yellow reveal" style="--i:6">
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-sk7"><span class="expander-label">Tools</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-sk7"><div class="panel-inner"><ul class="chip-list chip-list--static" role="list"><li class="chip-static">Canva</li><li class="chip-static">CapCut</li><li class="chip-static">Notion</li><li class="chip-static">Microsoft Excel</li></ul></div></div>
+      </article>
+      <article class="card skill-card tone-pink reveal" style="--i:7">
+        <h3 class="card-title"><button class="expander" type="button" aria-expanded="false" aria-controls="p-sk8"><span class="expander-label">Languages</span><span class="expander-icon" aria-hidden="true">+</span></button></h3>
+        <div class="panel" id="p-sk8"><div class="panel-inner"><ul class="chip-list chip-list--static" role="list"><li class="chip-static">English</li><li class="chip-static">Hindi</li><li class="chip-static">Kannada (conversational)</li></ul></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7.12 CONTACT ============ -->
+<section id="contact" class="section section--contact" aria-labelledby="contact-title">
+  <div class="container contact-inner">
+    <span class="giant-num" aria-hidden="true">11</span>
+    <h2 id="contact-title" class="statement reveal">Have an idea? <mark class="hl">Let's talk.</mark></h2>
+    <p class="lede reveal">I'm open to conversations, collaborations, marketing opportunities, partnerships, interesting ideas, networking and entrepreneurship opportunities.</p>
+
+    <div class="contact-buttons reveal">
+      <div class="contact-item">
+        <a class="btn btn--primary btn--big btn-contact is-disabled" id="btn-linkedin" data-contact="linkedin" data-label="LinkedIn" href="#contact" aria-disabled="true">Add LinkedIn link</a>
+        <span class="placeholder placeholder--inline contact-note">placeholder — add in script.js</span>
+      </div>
+      <div class="contact-item">
+        <a class="btn btn--secondary btn--big btn-contact is-disabled" id="btn-email" data-contact="email" data-label="Email" href="#contact" aria-disabled="true">Add Email address</a>
+        <span class="placeholder placeholder--inline contact-note">placeholder — add in script.js</span>
+      </div>
+      <div class="contact-item">
+        <a class="btn btn--accent btn--big btn-contact is-disabled" id="btn-resume" data-contact="resume" data-label="Resume (download)" href="#contact" aria-disabled="true">Add Resume file</a>
+        <span class="placeholder placeholder--inline contact-note">placeholder — add in script.js</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year">2026</span> Lakshita Baid</p>
+    <p>Ideas. People. Possibilities.</p>
+    <a class="btn btn--ghost btn--small" href="#home">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
