@@ -503,7 +503,10 @@ strong { font-weight: 700; }
 .sticker--nerd.float { animation-duration: 9s; animation-delay: -5s; }
 
 /* scroll reveal */
-.js .reveal { opacity: 0; transform: translateY(24px) scale(.98); transition: opacity 600ms var(--ease-out), transform 600ms var(--ease-out); transition-delay: calc(var(--i, 0) * 80ms); }
+.js .reveal {
+  opacity: 1;
+  transform: none;
+}; transition: opacity 600ms var(--ease-out), transform 600ms var(--ease-out); transition-delay: calc(var(--i, 0) * 80ms); }
 .js .reveal.is-visible { opacity: 1; transform: none; }
 .js .reveal.is-visible.card, .js .reveal.is-visible.mini-card { transform: rotate(var(--tilt, 0deg)); }
 .js .reveal.is-settled.card, .js .reveal.is-settled.mini-card {
